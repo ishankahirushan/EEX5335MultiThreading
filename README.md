@@ -34,8 +34,6 @@ To perform matrix multiplication in parallel by:
 
 ## ⚙️ Step 1: WSL2 and Ubuntu Setup
 
-> Same as in the [Fibonacci.md](#) guide, briefly:
-
 1. **Enable WSL & Virtual Machine Platform** in Windows Features  
 2. Open PowerShell and run:
    ```bash
