@@ -213,19 +213,6 @@ Each row is calculated by an individual thread.
 
 ---
 
-## 🔍 Comparison: C (Pthreads) vs Java (Threads)
-
-| Feature               | Pthreads (C)                        | Java Threads                        |
-|----------------------|-------------------------------------|-------------------------------------|
-| Abstraction Level    | Low-level                           | High-level                          |
-| Thread Creation      | `pthread_create()`                  | `new Thread().start()`              |
-| Synchronization      | Manual (`pthread_join`)             | Built-in (`join`)                   |
-| Performance Control  | Fine-grained                        | Abstracted                          |
-| Portability          | Platform-specific                   | Platform-independent (Java JVM)     |
-| Code Simplicity      | More boilerplate                    | Simpler to write and read           |
-
----
-
 ## 📁 Repository Structure
 
 ```
